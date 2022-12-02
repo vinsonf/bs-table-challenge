@@ -1,0 +1,18 @@
+$primary: #e5126f;
+$secondary: #36b6d1;
+
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+$theme-colors: (
+  "first": #e5126f,
+  "second": #36b6d1,
+  "light": #f2f2f2,
+  "light-grey":  #f2f2f2,
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
